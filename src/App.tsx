@@ -6,11 +6,14 @@ import organicJobs from "./data/jobs.json";
 import SearchBar from "./components/widgets/SearchBar";
 
 function App() {
+  // Consts
   const [tags, setTags] = useState<string[]>([]);
   const [jobs, setJobs] = useState<any[]>([]);
 
+  // Handler Methods
   const handleClear = () => {
     setTags([]);
+    setJobs(organicJobs);
     return;
   };
 
@@ -24,25 +27,26 @@ function App() {
     else return setTags((prevTags) => [...prevTags, tag]);
   };
 
+  // Use Effects
   useEffect(() => {
-    const filteredJobs = jobs.filter((job) => {
+    if (tags.length <= 0) {
+      setJobs(organicJobs);
+      return;
+    }
+
+    const filteredJobs = jobs?.filter((job) => {
       const allJobTags = [...job.languages, job.role, job.level];
       return tags.every((tag) => allJobTags.includes(tag));
     });
 
-    if (filteredJobs.length > 0) {
-      setJobs(filteredJobs);
-      return;
-    }
-
-    setJobs(organicJobs);
+    setJobs(filteredJobs);
   }, [tags]);
 
   return (
     <AppContext.Provider
       value={{
-        onClear: handleClear,
         tags,
+        onClear: handleClear,
         onDelete: handleDelete,
         onAdd: handleAdd,
       }}

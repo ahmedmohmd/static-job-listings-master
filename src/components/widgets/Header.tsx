@@ -1,6 +1,5 @@
 import { FC } from "react";
 import headerImage from "../../assets/images/bg-header.svg";
-import SearchBar from "./SearchBar";
 
 const Header: FC = () => {
   return (
