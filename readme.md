@@ -39,4 +39,4 @@ By this App you can filter list of job according to it's role, level and languag
 
 # Web App Screenshot
 
-<!-- ![My Personal Website Screenshot](https://github.com/ahmedmohmd/my-personal-website/blob/main/app-screenshott.png?raw=true) -->
+![My Personal Website Screenshot](https://github.com/ahmedmohmd/static-job-listings-master/blob/main/app-screenshot.png?raw=true)
