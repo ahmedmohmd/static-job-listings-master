@@ -1,42 +1,53 @@
 # Static Job listings Master
 
----
+## 🚀 Brief Overview
 
-# Discription
+A dynamic and responsive Job Listings app built as a training project using Vite and pnpm with React.js. This app allows users to filter job listings based on roles, levels, and languages, providing an intuitive and seamless job search experience. The app's design is clean and modern, powered by Tailwind CSS, ensuring both aesthetics and usability. Thanks to Vite's fast bundling, the app delivers excellent speed and performance.
 
-This App is Training on using [Vite](https://vitejs.dev/guide/) with [pnpm](https://pnpm.io/) with React.js.
-By this App you can filter list of job according to it's role, level and languages.
+## ✨ Key Features
 
----
+1. Responsive Design
+2. Awesome Design thanks to **tailwind**.
+3. Nice perfomance.
 
-# App Features
+## 🛠️ Tech Stack
 
-- Responsive
-- Nice Design with Tailwind Framework
-- Speed & Good Performance thanks to vite bundler
+- React.js
+- TailwindCSS
+- TypeScript
 
----
+## 🔧 Install Instructions
 
-# Languages & Technologies
+1. Clone the repo
 
-### Languages That used in this Web App:
+```bash
+    git clone https://github.com/ahmedmohmd/dectionary-app.git
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="drawing" width="48" height="48"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=ar"><img src="https://img.icons8.com/color/48/000000/css3.png" alt="drawing" width="48" height="48"/></a>
-  <a href="https://www.javascript.com/"><img src="https://img.icons8.com/color/48/000000/javascript--v2.png" width="48" height="48"/></a>
-</div>
+```
 
-### Technolohies that used in this App:
+2. Install dependencies
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <a href="https://reactjs.org/"><img src="https://cdn-icons-png.flaticon.com/512/3334/3334886.png" alt="drawing" width="48" height="48"/></a>
-  <a href="https://tailwindcss.com/"><img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg" width="48" height="48"/></a>
-<a href="https://www.typescriptlang.org/"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968381.png" width="48" height="48"/></a>
-</div>
+```bash
+  pnpm install
 
----
+```
 
-# Web App Screenshot
+3. Run the App
+
+```bash
+  pnpm run dev
+
+```
+
+## 🖥️ Usage
+
+1. You can search about jobs.
+2. You can filter jobs by `role`, `technology` or by `programming language`.
+
+## 👀 Demo
+
+[Job Listing](https://static-job-listings-master-iota.vercel.app/)
+
+## 🖼️ Application's Screeshots
 
 ![My Personal Website Screenshot](https://github.com/ahmedmohmd/static-job-listings-master/blob/main/app-screenshot.png?raw=true)
